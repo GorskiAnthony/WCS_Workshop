@@ -1,0 +1,52 @@
+<!-- DOCTYPE permet d'informer la nature de notre document
+	doc : https://www.w3schools.com/tags/tag_doctype.asp
+ -->
+<!DOCTYPE html>
+<!-- ici, nous avons notre 1er balise "html" qui représente notre site internet
+	doc : https://www.w3schools.com/tags/tag_html.asp
+ -->
+<html lang="en">
+	<!-- la balise head est une des balises obligatoires, car elle contient une autre balise obligatoire aussi
+la balise "title". Elle représente les balises meta de notre site web.
+	doc : https://www.w3schools.com/tags/tag_head.asp
+ -->
+	<head>
+		<!-- doc: https://www.w3schools.com/tags/tag_meta.asp -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- doc: https://www.w3schools.com/tags/tag_link.asp -->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!-- doc: https://www.w3schools.com/tags/tag_title.asp -->
+		<title>Todo App</title>
+	</head>
+	<!-- La balise body représente notre site web. c'est à l'intérieur que nous allons 
+insérer l'ensemble de notre site.
+	doc : https://www.w3schools.com/tags/tag_body.asp
+ -->
+	<body>
+		<!-- doc : https://www.w3schools.com/tags/tag_div.asp -->
+		<div id="myDIV" class="header">
+			<!-- doc : https://www.w3schools.com/tags/tag_hn.asp -->
+			<h2>My To Do List</h2>
+			<!-- doc : https://www.w3schools.com/tags/tag_input.asp -->
+			<input type="text" id="myInput" placeholder="Title..." />
+			<!-- doc : https://www.w3schools.com/tags/tag_span.asp -->
+			<span onclick="newElement()" class="addBtn">Add</span>
+		</div>
+
+		<!-- doc : https://www.w3schools.com/tags/tag_ul.asp -->
+		<ul id="myUL">
+			<!-- doc : https://www.w3schools.com/tags/tag_li.asp -->
+			<li>Hit the gym</li>
+			<li class="checked">Pay bills</li>
+			<li>Meet George</li>
+			<li>Buy eggs</li>
+			<li>Read a book</li>
+			<li>Organize office</li>
+		</ul>
+		<!-- doc: https://www.w3schools.com/tags/tag_script.asp -->
+		<script src="main.js"></script>
+	</body>
+</html>
