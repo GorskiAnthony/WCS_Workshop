@@ -45,3 +45,5 @@ Nous allons nous intéresser sur le JavaScript.
 Ne pas hésiter à visiter ma chaîne YouTube et le repositoty associer 😁
 
 Repository: [anthony gorski](https://github.com/GorskiAnthony/youtube)
+
+Détail ici : [page notion](https://anthony-gorski.notion.site/Workshop-HTML-CSS-JS-2af4a89872ba4cdc9e7dee5db4e4fddc)
