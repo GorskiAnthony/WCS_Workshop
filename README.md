@@ -1,6 +1,6 @@
 # Workshop WCS
 
-La [WildCodeSchool](https://www.wildcodeschool.com/fr-FR) est une école de code gratuite, où vous pouvez apprendre à créer des applications web et mobile.
+La [WildCodeSchool](https://www.wildcodeschool.com/fr-FR) est une école de code, où vous pouvez apprendre à créer des applications web et mobile.
 
 Nous disposons de plusieurs formations.
 
